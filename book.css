@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    height: 200vh;
+}
+
+
+.bookcover {
+    height: 120vh;
+    width: 50%;
+    background-image: url(go.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 27%;
+    top: 10%;
+    text-align: center;
+    opacity: .9;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: -12px -12px 12px rgb(134, 134, 134), 12px 12px 12px darkgray;
+
+
+}
+
+.bookcover>h1 {
+    color: white;
+    width: 20%;
+    line-height: 70px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    text-align: left;
+    font-size: 65px;
+    position: relative;
+    left: 12%;
+    top: 113px;
+}
+
+.bookcover>h2 {
+    color: white;
+    width: 20%;
+    position: relative;
+    left: 75%;
+    font-size: 45px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    text-align: right;
+}
+
+.bookcover>p {
+    color: rgb(235, 231, 231);
+    position: relative;
+    bottom: 510px;
+    font-family: 'Ubuntu';
+    font-size: 17px;
+}
+
+.bookcover>h3 {
+    position: relative;
+    top: 200px;
+    left: 70%;
+    color: white;
+    font-size: 25px;
+    font-family: 'Ubuntu';
+    width: 10%;
+    text-align: left;
+
+}
+
+.bookcover>a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    position: relative;
+    right: 28%;
+    top: 200px;
+    font-family: 'Ubuntu';
+    font-weight: 300;
+}
+
+
+
+.page1 {
+    height: 120vh;
+    width: 50%;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 27%;
+    top: 10%;
+    text-align: center;
+    opacity: .9;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: -7px -7px 12px rgb(158, 158, 158), 12px 12px 12px darkgray;
+}
+
+.page1>.content {
+    position: relative;
+    top: 10%;
+    height: 84vh;
+    text-align: center;
+    padding: 30px;
+}
+
+.content>h1 {
+    margin-bottom: 60px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: 'Work Sans';
+    font-weight: 200;
+}
+
+.content>h2 {
+    margin-bottom: 40px;
+    font-family: 'Ubuntu';
+}
+
+.content>p {
+    margin-bottom: 30px;
+    text-align: left;
+    font-family: 'Ubuntu';
+    line-height: 20px;
+}
+
+.page1>p {
+    position: relative;
+    left: 0%;
+    top: 170px;
+    width: 10%;
+    font-family: 'Ubuntu';
+    color: darkgray;
+}
+
+.page1>.choosepage {
+    position: relative;
+    height: 10vh;
+    width: 28%;
+    left: 72%;
+    top: 152px;
+}
+
+.choosepage>a {
+    color: rgb(54, 54, 54);
+    font-size: 17px;
+    margin: 0px 5px;
+    font-family: 'Ubuntu';
+    text-decoration: none;
+}
+
+.page2 {
+    height: 120vh;
+    width: 50%;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 27%;
+    top: 10%;
+    text-align: center;
+    opacity: .9;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: -7px -7px 12px rgb(158, 158, 158), 12px 12px 12px darkgray;
+}
+
+.page2>.content {
+    position: relative;
+    top: 10%;
+    height: 84vh;
+    text-align: center;
+    padding: 30px;
+}
+
+.content>h1 {
+    margin-bottom: 60px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: 'Work Sans';
+    font-weight: 200;
+}
+
+.content>h2 {
+    margin-bottom: 40px;
+    font-family: 'Ubuntu';
+}
+
+.content>p {
+    margin-bottom: 30px;
+    text-align: left;
+    font-family: 'Ubuntu';
+    line-height: 20px;
+}
+
+.page2>p {
+    position: relative;
+    left: 0%;
+    top: 170px;
+    width: 10%;
+    font-family: 'Ubuntu';
+    color: darkgray;
+}
+
+.page2>.choosepage {
+    position: relative;
+    height: 10vh;
+    width: 28%;
+    left: 72%;
+    top: 152px;
+}
+
+.page2>.choosepage>a {
+    color: rgb(54, 54, 54);
+    font-size: 17px;
+    margin: 0px 5px;
+    font-family: 'Ubuntu';
+    text-decoration: none;
+}
+
+.backbook {
+    height: 120vh;
+    width: 50%;
+    background-image: url(go.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 27%;
+    top: 10%;
+    text-align: center;
+    opacity: .9;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: -12px -12px 12px rgb(134, 134, 134), 12px 12px 12px darkgray;
+}
+
+.backbook>h1 {
+    position: relative;
+    height: 10vh;
+    top: 40%;
+    color: white;
+    font-weight: 300;
+    font-family: 'Work Sans';
+}
+
+.backbook>.pages {
+    position: relative;
+    height: 10vh;
+    width: 28%;
+    left: 35%;
+    top: 552px;
+}
+
+.backbook>.pages>a {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    margin: 0px 5px;
+    font-family: 'Ubuntu';
+    text-decoration: none;
+}
